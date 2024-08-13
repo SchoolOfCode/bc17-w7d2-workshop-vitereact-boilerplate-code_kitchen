@@ -1,0 +1,9 @@
+- clone application ✅
+- checkout localhost (make sure port is identical) ✅
+- npm install ✅
+- npm run dev ✅
+- move over markup bit by bit (in one big component)
+- debug bit by bit
+- once all brought over, break up into smaller components
+- aim for 10+ components
+- come components should take props
