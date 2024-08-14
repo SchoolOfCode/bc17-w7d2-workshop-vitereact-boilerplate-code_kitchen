@@ -154,6 +154,7 @@ body {
   }
   .footer {
     width: 100%;
+    display: flex; /*added by IT */
     justify-content: center;
   }
   .footer-nav {
@@ -165,7 +166,7 @@ body {
     margin: 0;
   }
 
-  .colunms-container {
+  .columns-container { /* Irene updated the namig - was coluNMs*/
     width: 70%;
     display: flex;
     justify-content: space-between;

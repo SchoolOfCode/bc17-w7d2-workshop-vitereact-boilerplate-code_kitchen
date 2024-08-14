@@ -26,9 +26,9 @@ function App() {
 
         </main>
         
-        <footer className="footer">
+        <Footer className="footer">
           
-        </footer>
+        </Footer>
       </div>
     </body>
     </>
