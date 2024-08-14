@@ -1,5 +1,5 @@
 export function Footer () {
-    return {
+    return ( /* mistake was here - we used { instead of ( */
         <div className="columns-container">
             <div className="footer-column">
               <p>Find us on:</p>
@@ -28,5 +28,6 @@ export function Footer () {
             </div>
         </div>
         
-    }
-}
+    )
+  }
+    

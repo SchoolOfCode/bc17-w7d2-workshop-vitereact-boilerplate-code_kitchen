@@ -1,4 +1,4 @@
-function WeRecommend () {
+function WeRecommend ({title, description}) {
     return (
         <article className="tile">
             <img
@@ -12,4 +12,4 @@ function WeRecommend () {
     );
 }
 
-export default WeRecommend
+export default WeRecommend;

@@ -8,6 +8,7 @@ import HowItWorks from './Components/how-it-works/howItWorks.jsx'
 import WeRecommend  from './Components/how-it-works/weRecommend.jsx'
 import WeComeToYou from './Components/how-it-works/weComeToYou.jsx'
 import GiveUsACall from './Components/how-it-works/giveUsACall.jsx'
+import  { Footer } from './Components/footer/footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,12 +23,6 @@ function App() {
           <hr className="separator" />
 
           <HowItWorks />
-
-            <GiveUsACall />
-
-            <WeComeToYou />
-
-            <WeRecommend />
 
         </main>
         

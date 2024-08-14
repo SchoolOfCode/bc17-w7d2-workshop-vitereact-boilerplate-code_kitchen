@@ -1,4 +1,4 @@
-function WeComeToYou() {
+function WeComeToYou({title, description}) {
     return (
         <article className="tile">
             <img
@@ -6,10 +6,10 @@ function WeComeToYou() {
                 alt="Home visit illustration"
                 className="tile-image"
             />
-            <h3>We come to you...</h3>
+
+            <h3>{title}</h3>
             <p>
-                  We come to your home to do an assessment of the space and to
-                  your style preference.
+                {description}
             </p>
         </article>
     );

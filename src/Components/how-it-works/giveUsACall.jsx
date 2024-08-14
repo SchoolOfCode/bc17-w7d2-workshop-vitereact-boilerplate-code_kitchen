@@ -1,4 +1,4 @@
-function GiveUsACall () {
+function GiveUsACall ({title, description}) {
     return (
         <article className="tile">
             <img
@@ -6,9 +6,9 @@ function GiveUsACall () {
                 alt="Phone call illustration"
                 className="tile-image"
             />
-            <h3>Give us a call...</h3>
+            <h3>{title}</h3>
             <p>
-                Call us and book in a "Design Consultation" on a date and time that suits you.
+                {description}
             </p>
         </article>
     );
